@@ -1,7 +1,7 @@
 # CountriesToDynamo
 
 ## Why Needed
-I had to upload the countries [data](https://github.com/russ666/all-countries-and-cities-json) to Dynamo Db but the format was not correct so had to wrote a custom module to convert it into individual and upload it to dynamo.
+I had to upload the countries [data](https://github.com/russ666/all-countries-and-cities-json) to Dynamo Db but the format was not correct so had to wrote a custom module to convert it into individual row and upload it to dynamo.
 
 ## Purpose
 To store the data into the DynamoDb
