@@ -9,7 +9,8 @@ var configs Config
 
 // Config holds all applications configs
 type Config struct {
-	Region string `mapstructure:"region"`
+	Region    string `mapstructure:"region"`
+	TableName string `mapstructure:"table"`
 }
 
 // Load configs from ./config/ yml files depending on APP_ENV.
